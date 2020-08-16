@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="includeHTML();">
+
+  <div w3-include-html="navbar/index.html" class="sticky-top"></div>
+
+  <div class="jumbotron">
+    <div class="container" style="border-radius:15px;backdrop-filter: blur(25px);color:#f1f1f1;padding:15px;background-color:rgba(0,0,0,0.5);">
+      <h1 class="display-4">Climate Change</h1>
+      <p class="lead">
+        Earth’s climate is now changing faster than at any point in the history of modern civilization, primarily as a result of human activities.
+        Global climate change has already resulted in a wide range of impacts across every region of the country and many sectors of the economy that are expected to grow in the coming decades. - <a href="https://www.globalchange.gov/climate-change" target="_blank">GlobalChange.gov</a>
+      </p>
+      <a href="/whatshappening/index.html" class="btn btn-primary">Read More</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="https://www.globalchange.gov/sites/globalchange/files/styles/landing_feature_image/public/features/iceberg.jpg?itok=cq9AFOOk" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">What's Happening & Why</h4>
+            <p class="card-text">Thousands of studies conducted by researchers around the world have documented increases in temperature at Earth’s surface, as well as in the atmosphere and oceans.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="https://www.globalchange.gov/sites/globalchange/files/styles/landing_feature_image/public/features/agricultural_landscape_with_person.jpg?itok=bDPcaRmB" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Impacts on Society</h4>
+            <p class="card-text">Impacts related to climate change are evident across regions and in many sectors important to society—such as human health,
+               agriculture and food security, water supply, transportation, energy, ecosystems, and others—and are expected to become increasingly disruptive in the coming decades.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="https://www.globalchange.gov/sites/globalchange/files/styles/landing_feature_image/public/features/wind_farm_idaho.jpg?itok=l-sIMg32" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Response Options</h4>
+            <p class="card-text">The impacts of global climate change in the United States are already being felt and are projected to intensify in the future, especially without further action to reduce climate-related risks.
+               As the impacts of climate change grow, Americans face decisions about how to respond. 
+            </p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+<div class="container">
+  <h1 style="text-align: center; color: #d3d3d3;">Trending Feeds</h1>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card" style="background-color: lightgray;">
+        <div class="card-body">
+          <h4 class="card-title">NASA Climate Feeds</h4>
+          <a class="twitter-timeline" data-theme="light" data-height="1000" href="https://twitter.com/NASAClimate?ref_src=twsrc%5Etfw">Tweets by NASAClimate</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="background-color: lightgray;">
+        <div class="card-body">
+          <h4 class="card-title">UN Climate Feeds</h4>
+          <a class="twitter-timeline" data-theme="light" data-height="1000" href="https://twitter.com/UNFCCC?ref_src=twsrc%5Etfw">Tweets by UNFCCC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="background-color: lightgray;">
+        <div class="card-body">
+          <h4 class="card-title">Climate Reality Feeds</h4>
+          <a class="twitter-timeline" data-theme="light" data-height="1000" href="https://twitter.com/ClimateReality?ref_src=twsrc%5Etfw">Tweets by ClimateReality</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div w3-include-html="footer/index.html" class="sticky-top"></div>
+  <!--BOOTSTRAP JS-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
